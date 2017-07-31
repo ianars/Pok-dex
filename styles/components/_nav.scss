@@ -1,0 +1,104 @@
+.nav{
+ display: flex;
+ width: 100%;
+}
+.nav-mobile li a {
+  color: $secondary-color;
+  text-decoration: none;
+}
+.nav-mobile li a:hover {
+ color: $hover-color;
+}
+.nav-mobile{
+  border: 2px solid $border-color;
+  display: none;
+  font-size: 1.3em;
+  list-style: none;
+  width: 100%;
+  padding: 17px;
+  line-height: 2.3;
+}
+.listShow{
+  display: block;
+  position: fixed;
+  right: 0px;
+  background-color: rgba(144, 158, 244, 0.8);
+  z-index: 50;
+  margin: 0;
+  width: 100%;
+  animation: fall-down 1s;
+  top: 15%;
+}
+
+@keyframes fall-down {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(0); }
+}
+
+.nav-desktop {
+  display: none;
+}
+
+@media (min-width: $size-media-query-tablet){
+
+.nav-desktop{
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  font-size: 1.5em;
+  overflow: hidden;
+  margin-top: 5%;
+  margin-bottom: 0;
+  border-radius: 8px;
+  list-style: none;
+}
+.nav-desktop a {
+  color: $primary-color;
+}
+.nav-desktop a:hover {
+  color: $hover-color;
+  text-decoration: none;
+}
+.nav-mobile{
+  display: none;
+}
+}
+// .sideNav-desktop a {
+//   position: absolute;
+//   left: -110px;
+//   transition: 0.3s;
+//   padding: 15px;
+//   width: 150px;
+//   font-size: 20px;
+//   border-radius: 0 5px 5px 0;
+// }
+//
+// .sideNav-desktop a:hover {
+//   left: 0;
+//   color: white;
+//   text-decoration: none;
+// }
+//
+// .pokemons {
+//   top: 60px;
+//   background-color: rgb(37,81,136);
+// }
+//
+// .about {
+//   top: 130px;
+//   background-color: rgb(255, 193, 7);
+// }
+// // .contact{
+// //   background-color: rgb(33, 150, 243);
+// //   top: 200px;
+// // }
+// .nav ul li{
+//   list-style-type: none;
+// }
+// }
+
+
+// .cards-container{
+// position: relative;
+// text-align: center;
+// }

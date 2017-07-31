@@ -1,0 +1,23 @@
+.box-brand{
+  width: 280px;
+}
+
+.brand{
+ display: block;
+ width: 120%;
+}
+.glyphicon {
+  font-size: 20px;
+}
+@media (min-width: $size-media-query-tablet){
+  .box-brand{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  // .brand{
+  //  display: block;
+  //  width: 100%;
+  // }
+}

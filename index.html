@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pokédex</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/aboutme.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+  <body>
+<header class="nav">
+  <div class="box-brand">
+    <img class="brand"src="images/pokedeex.png" alt="Logo pokédex">
+  </div>
+
+<!-- <ul class="sideNav-desktop">
+      <li><a class="nav-link "href="index.html">Pokemons</a></li>
+      <li><a class="nav-link "href="aboutme.html">About</a></li>
+  </ul> -->
+<ul class="nav-desktop">
+  <li><a href="index.html">Pokémons</a></li>
+  <li><a href="aboutme.html">About</a></li>
+</ul>
+  <ul class="nav-mobile" id="btn-navShow">
+      <li><a href="index.html">Pokemons</a></li>
+      <li><a href="aboutme.html">About</a></li>
+  </ul>
+
+  <div id="btn-bigMac" class="burguerBtn">
+    <span class="glyphicon glyphicon-align-justify"style="color:rgb(255, 255, 255)" ></span>
+  </div>
+</header>
+
+<main>
+<div class="input-div">
+  <input class="input" type="text"name="search" placeholder="Search for Pokémons">
+  <span class="glyphicon glyphicon-search"style="color:rgb(37, 81, 136)"></span>
+</div>
+<div class="cards-container">
+<div class="cards">
+</div>
+</div>
+<div class="more-data">
+  <a href="#">¿De dónde sacáis los datos?</a>
+</div>
+<div class="modal">
+<div class="modal-content">
+  <h2>Whered you get all of this data?</h2>
+<p>
+  We gathered the information on this site from various resources:
+</p>
+<ul>
+  <li>Veekun has a fantastic Pokedex which is also an open source project containing a ton of csv data. We used this to flesh out the database that powers Pokeapi.</li>
+  <li>Bulbapedia has a tonne of extra information that proved useful when designing models and documenting resources.</li>
+</ul>
+   <div class="stripe"></div>
+<h2>Fair Use Policy</h2>
+<p>
+  PokéAPI is free and open to use. It is also very popular. Because of this, we ask every developer to abide by our fair use policy. People not complying with the fair use policy will have their IP address permenantly banned.
+  PokéAPI is primarily an educational tool, and we will not tolerate denial of service attacks preventing people from learning.
+</p>
+<ul>
+<h2>Rules:</h2>
+  <li>Locally cache resources and images when ever you request them.</li>
+  <li>Do not spam the entire service to scrape all the data at once - use the paginated pages.</li>
+  <li>Use the correct user-agent header in API requests.</li>
+  <li>Be nice and friendly to your fellow PokéAPI developer.</li>
+</ul>
+<div>
+  <button class="btn-close" type="button" name="button">close</button>
+</div>
+</div>
+</div>
+</main>
+<footer class="footer-content">
+<div class="social-icons">
+  <a href="#"><img class="icon-sc"src="images/github-icon.png" alt=""></a>
+  <a href="#"><img class="icon-sc"src="images/gmail-icon.png" alt=""></a>
+  <a href="#"><img class="icon-sc"src="images/twitter-icon.png" alt=""></a>
+</div>
+  <p>Adalab 2017</p>
+</footer>
+   <script src="JS/index.js" charset="utf-8"></script>
+</body>
+</html

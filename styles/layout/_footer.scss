@@ -1,0 +1,20 @@
+.footer-content{
+  background-color: $primary-color;
+  display: flex;
+  width: 125%;
+  height: 100px;
+}
+.footer-content p{
+  color: rgba(243, 207, 160, 0.94);
+  margin-top: 80px;
+  margin-right: 10px;
+}
+.social-icons {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+.icon-sc{
+ width: 30px;
+}

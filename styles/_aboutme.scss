@@ -1,0 +1,46 @@
+*{
+box-sizing: border-box;
+}
+main{
+  width: 100%;
+  height: 100%;
+}
+.aboutme-content{
+  margin-left: 8%;
+  margin-right: 5%;
+}
+.aboutme-content h1 {
+  color:  $primary-color;
+  font-size: 1.6em;
+  margin-top: 30%;
+}
+.aboutme-content p {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.aboutme-stripe {
+  border-bottom: 2px solid $secondary-color;
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 2%;
+}
+.footer-content {
+  margin-top: 33%;
+  margin-bottom: 20%;
+}
+@media (min-width: $size-media-query-tablet){
+.aboutme-content{
+  margin-left: 25%;
+}
+.aboutme-content h1 {
+  font-size: 2em;
+  margin-top: 20%;
+  margin-left: -6%;
+}
+.aboutme-stripe {
+  margin-left: -12%;
+}
+.aboutme-content p {
+  margin-right: 30%;
+}
+}
